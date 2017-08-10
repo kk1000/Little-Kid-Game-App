@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.android.animation_assignment4.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/option_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/up" />
+
+        <ImageView
+            android:id="@+id/option_down"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/down" />
+
+        <ImageView
+            android:id="@+id/option_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/left" />
+
+        <ImageView
+            android:id="@+id/option_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrows"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/direction_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/choice"></ImageView>
+
+        <ImageView
+            android:id="@+id/direction_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/choice"></ImageView>
+
+        <ImageView
+            android:id="@+id/direction_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/choice"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/image_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/arrows"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sound"
+            android:onClick="music" />
+        <ImageButton
+            android:id="@+id/redo_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redo"
+            android:onClick="redo" />
+        <ImageButton
+            android:id="@+id/exit_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/exit"
+            android:onClick="exit"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arrows"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed"/>
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/start"
+            android:onClick="start" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/stage1" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/pic"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ball" />
+
+</RelativeLayout>

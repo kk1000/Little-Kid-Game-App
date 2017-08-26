@@ -2,7 +2,7 @@
 * This project was to a game app to let little kids learn logics.
 * There are three levels and each level has time limiation.
 * Users can register as roles of parent or kid. For kid role, it shows game after logging in. For parent role, it shows game report for kids after logging in. 
-* There is background music playing during game. Users can choose to display music or mute the music.
+* There is background music playing during game. Users can choose to play or mute the music.
 * There is drag and drop features to make the game easy to play.
 * There is animation after users input the correct answer.
 

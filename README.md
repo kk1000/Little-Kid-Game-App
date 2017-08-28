@@ -1,4 +1,4 @@
-# [](#header-1) Welcome to Kid Logic Learning Game - Android App
+# [](#header-1) Welcome to Kid Logic Learning Game App- Android App
 * This project was to a game app to let little kids learn logics.
 * There are three levels and each level has time limiation.
 * Users can register as roles of parent or kid. For kid role, it shows game after logging in. For parent role, it shows game report for kids after logging in. 
@@ -13,7 +13,7 @@ _Refresh the page to replay gif_
 
 ## [](#header-2) Details:
 
-#### [](#header-4) Stages:
+#### [](#header-4) Game Levels:
 ###### [](#header-6) This game contains three levels:
 ![png](res/stage1.png)
 

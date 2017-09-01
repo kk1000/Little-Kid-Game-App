@@ -7,7 +7,11 @@
 * There is animation after users input the correct answer.
 
 # [](#header-1) Final Demo:
-_Refresh the page to replay gif_
+_It may takes time to load the gif. Please wait._
+
+_Refresh the page to replay the gif._
+
+_Click on picture to watch video._
 
 ![gif](res/demo.gif)
 
